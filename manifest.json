@@ -5,12 +5,14 @@
     "description": "Save all of your current opened tabs into a single bookmark button",
     "permissions": [
         "tabs",
-        "bookmarks",
-        "storage"
+        "bookmarks"
     ],
     "author": "Gabriela Georgieva",
     "action":{
         "default_popup": "index.html",
         "default_title": "Save Tabs"
+    },
+    "icons": {
+        "128": "logo.png"
     }
 }
